@@ -35,7 +35,7 @@ String me="I am a good tester";
 		System.out.println(me);
 		
 		String car="I have a Toyota";
-		car=car.replace("Toyota", "Lexus");
+		car=car.replace("Toyota", "bmw");
 		System.out.println(car);
 		
 		String str3="Hello all students";
