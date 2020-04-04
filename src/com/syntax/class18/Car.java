@@ -16,7 +16,7 @@ public class Car {
 		System.out.println("I have " + year + make + " " + model + " in " + color);
 	}
 	void hello() {
-		System.out.println(" this is ana amzing car");
+		System.out.println(" this is ana amzing car"+ make);
 	}
 	public static void main(String[] args) {
 		Car car1 = new Car();

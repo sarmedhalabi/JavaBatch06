@@ -12,7 +12,8 @@ public class Constructor {
  	}
 
  	Constructor(int num){
- 		System.out.println("Default constructor");
+ 		int num1=23;
+ 		System.out.println("Default constructor"+ num1);
  	}
 
  	protected Constructor(int num, int num1){
