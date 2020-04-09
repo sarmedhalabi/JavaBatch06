@@ -4,12 +4,15 @@ public class Recap {
 Recap(){
 	System.out.println(" learning constuctor");
 }
-protected int sumFromArray(int[] array) {
+protected int sumFromArray(int[] a) {
 		int total = 0;
-		for (int i = 0; i < array.length; i++) {
-			total += array[i];
+		for (int i = 0; i < a.length; i++) {
+			total += a[i];
+			
 		}
-		return total;
+		int average= total/a.length;
+		return average;
+		
 	}
 
 	public static String getReverse(String str) {
@@ -28,8 +31,8 @@ protected int sumFromArray(int[] array) {
 
 	public static void main(String[] args) {
 		Recap obj = new Recap();
-		int[] array = { 2, 7, 19, 857 };
-		System.out.println("total: " + obj.sumFromArray(array));
+		int[] a = { 2, 7, 19, 857 };
+		System.out.println("total: " + obj.sumFromArray(a));
 
 		String str=Recap.getReverse("Hello");
 		System.out.println(str);

@@ -12,6 +12,7 @@ public class Book {
 		this.printingYear = printingYear;
 	}
 	public void displyInfo() {
+		
 		System.out.format("The book %s printed in %d.\n",bookName, printingYear);
 	}
 	public static void main(String[] args) {
