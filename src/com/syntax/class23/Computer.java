@@ -17,7 +17,7 @@ public class Computer {
 }
 class Apple extends Computer{
 	
-	Apple(String read,String code){
+	 Apple(String read,String code){
 		super(read,code);
 	}
 	public void display() {

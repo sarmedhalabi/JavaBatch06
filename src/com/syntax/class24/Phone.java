@@ -12,6 +12,7 @@ public  abstract class Phone {
 
 	 	//unimplemented methods=undefined methods=abstract methods
 	 	public abstract void takePicture();
+	 	
 
 	 	public abstract void playMusic();
 	 }
@@ -27,7 +28,7 @@ public  abstract class Phone {
 
 	 	@Override
 	 	public void playMusic() {
-	 		System.out.println("iPhones play music using apple store");
+	 	System.out.println("iPhones play music using apple store");
 	 	}
 	 }
 
