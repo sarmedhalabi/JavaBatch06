@@ -4,6 +4,7 @@ public class Doctor {
 	private long licenseID;
  	private long phoneNumber;
  	private String email;
+ 	
 
  	public void setEmail(String email) {
 
